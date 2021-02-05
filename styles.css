@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+}
+
+.page1 {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  background-image: linear-gradient(2deg, #000 0%, #faa307 80%);
+  margin: auto;
+  border-radius: 35px;
+  border-style: outset;
+  font-family: 'Knewave', cursive;
+  font-size: 5.0rem;
+  margin-top: 10%;
+}
+
+#rul1{
+  font-family: 'Knewave', cursive;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 4.0rem;
+  margin-top: 5%;
+  margin-left: 15%;
+  display: block;
+}
+
+#rule{
+  font-family: 'Knewave', cursive;
+  color: #000;
+  margin-left: 10%;
+  margin-right: auto;
+  font-size: 1.5rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 80%;
+  height: 10%;
+  margin-top: 1%;
+  display: block;
+}
+
+#next {
+  font-family: 'Knewave', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 2rem;
+  margin-top: 2rem;
+  width: 10rem;
+  height: 5rem;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 1px 0px 0px #faa307;
+  background-color:grey;
+  border-radius:7px;
+  border:3px solid #000;
+  cursor:pointer;
+  color:#333333;
+  font-weight:bold;
+  font-style:italic;
+}
+
+
+#next:hover {
+  color: #f1f1f1;
+}
+
+#a {
+  text-decoration: none;
+  font-size: 2.6rem;
+  color: #818181;
+  display: block;
+   float: right;
+   margin-right: 1rem;
+   margin-top: 1rem;
+   cursor: pointer;
+   font-family: 'Knewave', cursive;
+}
+
+#a:hover {
+  color: #f1f1f1;
+}
+
+table, th, td {
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  border-spacing: 1rem 1rem;
+}
+
+table {
+  background-color: none;
+}
+
+td {
+cursor: pointer;
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+background: white;
+border-radius: 50%;
+background: radial-gradient(circle at 4rem 2rem, #faa307 2%, #000);
+}
